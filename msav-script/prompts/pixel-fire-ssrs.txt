@@ -1,0 +1,88 @@
+【Global Visual】
+【Scene and Space】Colorful pixel-art coastal forest
+【Visual Style】Pixel-art
+【Global Lighting and Color】Colorful
+【Visual Atmosphere】Coastal forest setting
+
+【Global Audio】
+【overall_soundscape】Sea wind, twig rustles and fire crackles
+【non_diegetic_music】N/A
+【global_auditory_atmosphere】Coastal forest ambience with wind and fire sounds
+
+【Visual Entity Registry】
+[Subject A] A cup with arms and legs
+[Object A] Prepared kindling
+[Object B] Dry grass
+[Object C] Two twigs
+[Object D] Flint striker
+[Object E] Spark
+[Object F] Flame
+[Object G] Small fire
+
+【Audio Identity Registry】
+
+【Audio Entity Registry】
+[Ambience 1] Sea wind
+[SFX 1] Twig rustles
+[SFX 2] Fire crackles
+
+【Shot Sequence】
+【Shot 1｜0-1.67s】
+【Transition】Hard cut
+【Shot Size】Wide
+【View Angle】Wide
+【Camera Movement】not specified
+【Local Lighting and Visual Style】Pixel-art
+【Frame Details】Colorful pixel-art coastal forest
+【In-shot Visual Entity States and Changes】The cup [Subject A] kneels beside prepared kindling [Object A] and examines the dry grass [Object B]
+【In-shot Audio Event States and Changes】Sea wind [Ambience 1], twig rustles [SFX 1] and fire crackles [SFX 2] are present
+【Intra-shot Audiovisual Event Relations】
+【Source】Sea wind [Ambience 1] is heard as scene soundfield.
+【Source】Twig rustles [SFX 1] are heard as scene soundfield.
+【Source】Fire crackles [SFX 2] are heard as scene soundfield.
+
+【Shot 2｜1.67-5s】
+【Transition】Hard cut
+【Shot Size】Medium
+【View Angle】Medium
+【Camera Movement】not specified
+【Local Lighting and Visual Style】Pixel-art
+【Frame Details】Colorful pixel-art coastal forest
+【In-shot Visual Entity States and Changes】The cup [Subject A] places two twigs [Object C] on top and raises a flint striker [Object D]
+【In-shot Audio Event States and Changes】Sea wind [Ambience 1], twig rustles [SFX 1] and fire crackles [SFX 2] continue
+【Intra-shot Audiovisual Event Relations】
+【Source】Sea wind [Ambience 1] continues as scene soundfield.
+【Source】Twig rustles [SFX 1] continue as scene soundfield.
+【Source】Fire crackles [SFX 2] continue as scene soundfield.
+
+【Shot 3｜5-8.33s】
+【Transition】Hard cut
+【Shot Size】Side medium
+【View Angle】Side medium
+【Camera Movement】not specified
+【Local Lighting and Visual Style】Pixel-art
+【Frame Details】Colorful pixel-art coastal forest
+【In-shot Visual Entity States and Changes】A spark [Object E] lands in the grass [Object B]. The cup [Subject A] blows gently as a flame [Object F] appears
+【In-shot Audio Event States and Changes】Sea wind [Ambience 1], twig rustles [SFX 1] and fire crackles [SFX 2] continue
+【Intra-shot Audiovisual Event Relations】
+【Source】Sea wind [Ambience 1] continues as scene soundfield.
+【Source】Twig rustles [SFX 1] continue as scene soundfield.
+【Source】Fire crackles [SFX 2] continue as scene soundfield.
+
+【Shot 4｜8.33-10s】
+【Transition】Hard cut
+【Shot Size】Wide
+【View Angle】Wide
+【Camera Movement】not specified
+【Local Lighting and Visual Style】Pixel-art
+【Frame Details】Colorful pixel-art coastal forest
+【In-shot Visual Entity States and Changes】The cup [Subject A] warms its hands beside the small fire [Object G]
+【In-shot Audio Event States and Changes】Sea wind [Ambience 1], twig rustles [SFX 1] and fire crackles [SFX 2] continue
+【Intra-shot Audiovisual Event Relations】
+【Source】Sea wind [Ambience 1] continues as scene soundfield.
+【Source】Twig rustles [SFX 1] continue as scene soundfield.
+【Source】Fire crackles [SFX 2] continue as scene soundfield.
+
+【Global Audiovisual Event Sequence】
+【Main Event Flow】E1: [Shot 1] The cup [Subject A] kneels beside kindling and examines dry grass. → E2: [Shot 2] The cup [Subject A] places twigs and raises a flint striker. → E3: [Shot 3] A spark lands in grass, the cup blows, and a flame appears. → E4: [Shot 4] The cup warms its hands beside the small fire.
+【Trigger】E3, [Shot 2], [Shot 3], [Subject A]: Raising the flint striker [Object D] in E2 triggers the spark [Object E] and flame [Object F] in e3.

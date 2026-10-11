@@ -1,0 +1,72 @@
+【Global Visual】
+【Scene and Space】Museum display aisle with exhibits, crowd present in background
+【Visual Style】Realistic, cool-toned
+【Global Lighting and Color】Soft sidelight crosses the glass
+【Visual Atmosphere】Calm, echoing
+
+【Global Audio】
+【overall_soundscape】Crowd noise and echoing footsteps
+【non_diegetic_music】N/A
+【global_auditory_atmosphere】Echoing
+
+【Visual Entity Registry】
+[Subject A] Young white adult woman
+[Subject B] Young white adult man
+
+【Audio Identity Registry】
+[Voiceprint A] Young white adult female voice, clear English
+[Voiceprint B] Young white adult male voice, clear English
+
+【Audio Entity Registry】
+[Voice 1] uses [Voiceprint A] | transcript: “So calm here.” | Woman speaking
+[Voice 2] uses [Voiceprint B] | transcript: “Stay a little longer?” | Man speaking
+[Voice 3] uses [Voiceprint A] | transcript: “No rush.” | Woman speaking
+[SFX 1] Echoing footsteps
+[Ambience 1] Crowd noise
+[Ambience 2] Scene ambience closing the scene
+
+【Shot Sequence】
+【Shot 1｜0.0–3.0 seconds】
+【Transition】Hard cut
+【Shot Size】Medium two-shot
+【View Angle】Aisle view
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic, cool-toned
+【Frame Details】Museum display aisle, crowd blurred in background
+【In-shot Visual Entity States and Changes】[Subject A], [Subject B]: Two young white adults walk side by side conversing, then slow to a stop; [Subject A]: Woman looks at the man
+【In-shot Audio Event States and Changes】[SFX 1], [Ambience 1]: Woman speaks [Voice 1] Footsteps recede. Crowd noise present.
+【Intra-shot Audiovisual Event Relations】
+【Source】(speaking) Woman [Subject A] speaks [Voice 1].
+【Source】(scene sound field; receding) Echoing footsteps [SFX 1] recede in the scene.
+【Source】(scene sound field) Crowd noise [Ambience 1] is present.
+
+【Shot 2｜3.0–6.0 seconds】
+【Transition】Hard cut
+【Shot Size】Close-up
+【View Angle】Man's face
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic, cool-toned, soft sidelight crosses the glass
+【Frame Details】Man's face, crowd remains blurred
+【In-shot Visual Entity States and Changes】[Subject B]: Man looks at her and smiles
+【In-shot Audio Event States and Changes】[Ambience 1]: Man speaks [Voice 2] Crowd noise present.
+【Intra-shot Audiovisual Event Relations】
+【Source】(asking) Man [Subject B] asks [Voice 2].
+【Source】(scene sound field) Crowd noise [Ambience 1] is present.
+
+【Shot 3｜6.0–9.0 seconds】
+【Transition】Hard cut
+【Shot Size】Close-up
+【View Angle】Woman's face
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic, cool-toned
+【Frame Details】Woman's face, exhibit visible
+【In-shot Visual Entity States and Changes】[Subject A]: Woman relaxes her shoulders, answers, then turns to view the exhibit with him
+【In-shot Audio Event States and Changes】[Ambience 1], [Ambience 2]: Woman speaks [Voice 3] Ambience closes the scene.
+【Intra-shot Audiovisual Event Relations】
+【Source】(answering) Woman [Subject A] answers [Voice 3].
+【Source】(scene sound field) Crowd noise [Ambience 1] is present.
+【Source】(scene sound field; closing) Ambience [Ambience 2] closes the scene.
+
+【Global Audiovisual Event Sequence】
+【Main Event Flow】E1: [Shot 1] Two young adults walk and converse in a museum aisle, stopping as footsteps recede. → E2: [Shot 2] Man smiles and asks to stay longer. → E3: [Shot 3] Woman answers no rush and turns to view the exhibit.
+【Cross-shot】E1, E2, E3, [Subject A], [Subject B], [Voice 1], [Voice 2], [Voice 3]: Conversation continues across shots [Shot 1], [Shot 2], [Shot 3].

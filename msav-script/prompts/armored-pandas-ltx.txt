@@ -1,0 +1,7 @@
+Generate an audiovisual clip lasting exactly 8 seconds with exactly 3 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic warm copper steampunk gate plaza. Three armored pandas are already behind pipes near the flag platform. Show the final short flag capture, with a brief French command, valves, and flapping cloth.
+
+Shot 1 [0.0–3.0 seconds]: Close shot at the pipe cover. The leader looks toward the flag a few steps away, points, and says softly, “En avant !” The other two pandas nod.
+
+Shot 2 [3.0–6.0 seconds]: Hard cut to a side medium tracking shot. The pandas run the short distance from cover toward the flag. Metallic footsteps and valve hisses are distinct; nearby cloth flutters.
+
+Shot 3 [6.0–8.0 seconds]: Hard cut to the flagpole close-up. The leader grasps it as the teammates stop behind, then calls, “Pour la cité !” The flag unfurls.

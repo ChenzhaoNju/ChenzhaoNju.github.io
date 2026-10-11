@@ -1,0 +1,70 @@
+【Global Visual】
+【Scene and Space】Realistic warm copper steampunk gate plaza with pipes near a flag platform.
+【Visual Style】Steampunk aesthetic with armored pandas.
+【Global Lighting and Color】Warm copper tones.
+【Visual Atmosphere】Action-oriented capture sequence.
+
+【Global Audio】
+【overall_soundscape】Metallic footsteps, valve hisses, cloth fluttering, and soft French commands.
+【non_diegetic_music】N/A
+【global_auditory_atmosphere】Tense operational atmosphere with mechanical and vocal elements.
+
+【Visual Entity Registry】
+[Subject A] Leader panda, armored, positioned near pipes.
+[Subject B] Two other armored pandas, teammates.
+[Object A] Flag on a flagpole.
+[Object B] Pipe cover.
+[Object C] Cloth near the flag.
+
+【Audio Identity Registry】
+[Voiceprint A] Male voice, French, soft tone, authoritative command.
+
+【Audio Entity Registry】
+[Voice 1] spoken speech | uses [Voiceprint A] | transcript: “En avant !” | Soft French command.
+[SFX 1] Metallic footsteps.
+[SFX 2] Valve hisses.
+[SFX 3] Cloth fluttering.
+[Voice 2] spoken speech | uses [Voiceprint A] | transcript: “Pour la cité !” | French command.
+
+【Shot Sequence】
+【Shot 1｜0.0–3.0 seconds】
+【Transition】Hard cut
+【Shot Size】Close shot
+【View Angle】At the pipe cover
+【Camera Movement】Static
+【Local Lighting and Visual Style】Warm copper steampunk
+【Frame Details】Pipe cover in foreground; leader panda looking toward flag a few steps away; two other pandas nodding.
+【In-shot Visual Entity States and Changes】[Subject A]: Leader looks toward the flag a few steps away and points.; [Subject B]: The other two pandas nod.
+【In-shot Audio Event States and Changes】Soft French command [Voice 1] is spoken.
+【Intra-shot Audiovisual Event Relations】
+【Source】(says) Leader [Subject A] speaks [Voice 1].
+
+【Shot 2｜3.0–6.0 seconds】
+【Transition】Hard cut
+【Shot Size】Medium tracking shot
+【View Angle】Side view
+【Camera Movement】Tracking
+【Local Lighting and Visual Style】Warm copper steampunk
+【Frame Details】Pandas running from cover toward the flag; metallic footsteps visible; valves visible; cloth flutters nearby.
+【In-shot Visual Entity States and Changes】[Subject A], [Subject B]: Pandas run the short distance from cover toward the flag.
+【In-shot Audio Event States and Changes】[SFX 1], [SFX 2], [SFX 3]: Metallic footsteps, valve hisses, and cloth fluttering are distinct.
+【Intra-shot Audiovisual Event Relations】
+【Source】(run) Pandas [Subject A], [Subject B] movement produces [SFX 1].
+【Source】(scene sound field; valves) Valves produce [SFX 2].
+【Source】Cloth [Object C] flutters producing [SFX 3].
+
+【Shot 3｜6.0–8.0 seconds】
+【Transition】Hard cut
+【Shot Size】Close-up
+【View Angle】At the flagpole
+【Camera Movement】Static
+【Local Lighting and Visual Style】Warm copper steampunk
+【Frame Details】Flagpole close-up; leader grasping it; teammates stopped behind; flag unfurling.
+【In-shot Visual Entity States and Changes】[Subject A]: Leader grasps the flagpole.; [Subject B]: Teammates stop behind.; [Object A]: Flag unfurls.
+【In-shot Audio Event States and Changes】French command [Voice 2] is called.
+【Intra-shot Audiovisual Event Relations】
+【Source】Leader [Subject A] calls [Voice 2].
+
+【Global Audiovisual Event Sequence】
+【Main Event Flow】E1: [Shot 1] Leader [Subject A] points and gives command [Voice 1] while teammates [Subject B] nod. → E2: [Shot 2] Pandas [Subject A], [Subject B] run toward the flag accompanied by footsteps [SFX 1], valve hisses [SFX 2], and cloth flutter [SFX 3]. → E3: [Shot 3] Leader [Subject A] grasps the flagpole [Object A] while teammates [Subject B] stop, then gives command [Voice 2] as the flag unfurls.
+【Cross-shot】E1, E2, E3, [Shot 1], [Shot 2], [Shot 3], [Subject A], [Subject B], [Voice 1], [Voice 2]: Continuous action of the team advancing and capturing the flag across shots.

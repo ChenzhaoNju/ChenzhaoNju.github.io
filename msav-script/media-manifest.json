@@ -1,0 +1,572 @@
+[
+  {
+    "path": "videos/pixel-fire-ssrs.mp4",
+    "source_sha256": "377c0528044dafdc3ee0ab5613b570c63cccd63d7f1b62f4fa873db2adb7f3eb",
+    "sha256": "ddb29a30a0df59d32a16fd7a8f1be172dccae09a10102b87769e335ae41e9416",
+    "bytes": 5745060,
+    "duration": 10.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/pixel-fire-ltx.mp4",
+    "source_sha256": "3dba1dae19c45b1c34f20695098c62d5c097363e39dad457c2b106bc3a3e6512",
+    "sha256": "6d522bc72dda04c0d8a1da1a0b59d35cce01cb3f1128aa8ffd9b1243de6e89a5",
+    "bytes": 3895103,
+    "duration": 10.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/pixel-fire-shotstream.mp4",
+    "source_sha256": "7de73d4c85a38162478dd925e091d670afd3af765875c65d1b8752f1a443f76a",
+    "sha256": "ff66a7a5d127e6c1d7bbd8ded7b48d65608ba55bed5bf550eaca5ba21032c593",
+    "bytes": 6491775,
+    "duration": 10.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 832,
+        "height": 480
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/pixel-fire-javis.mp4",
+    "source_sha256": "3d8f07d86f98168087cc16f5ebb02b651d5109aaa0f1b6c64df44aeae538f402",
+    "sha256": "66f10d6b501dbc34eedbaa6e3b19ade496d9eca070d121780f9c7c100a0174ce",
+    "bytes": 1208023,
+    "duration": 10.042,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 432,
+        "height": 240
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/balcony-mint-ssrs.mp4",
+    "source_sha256": "7ae9d1e05681805d96ee9cf80dec2b897a55664a82bdedefd966f7c2c03d9afb",
+    "sha256": "9f914fe85aea53c2797f95c1a544a848a92d1cd916fccc7a272f4eaf51c5253a",
+    "bytes": 5934873,
+    "duration": 10.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/balcony-mint-ltx.mp4",
+    "source_sha256": "961252aba2f0303fa2d6668a81ee064b9fd5adecf4840beb9e34efc591b92bb3",
+    "sha256": "3edc1dab63178a8a35fac21c207700694e302f39ecb88f3d24f99a8295f5a72d",
+    "bytes": 2140446,
+    "duration": 10.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/balcony-mint-shotstream.mp4",
+    "source_sha256": "248b87cdf6b3d1336b8f4c7d8972454cb115041b30b89dbc09007147e92f4bc8",
+    "sha256": "a052152c89fca5791bfc72447e063b1f0776ad084b56f2cd13ab0fb58b00b906",
+    "bytes": 6130925,
+    "duration": 10.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 832,
+        "height": 480
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/balcony-mint-javis.mp4",
+    "source_sha256": "fc871d974c2ac42c2c6261eb94a2907c13e6bb15458525ebcb19ce3bc10a0abb",
+    "sha256": "e02b47a9d9b8ee8fbc0f58cf48a25f31c67a392e1a65fb439c1baf99cd37dd41",
+    "bytes": 723696,
+    "duration": 10.041,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 432,
+        "height": 240
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/museum-dialogue-ssrs.mp4",
+    "source_sha256": "10f37b831bdafea5010e7373e9faba17771b92aea2b09d6923c15b0ca4359170",
+    "sha256": "f33ab9d5e10d4a0e898d7551e8ae1ff224015112edc786201b94cfaea32a4a6b",
+    "bytes": 1599864,
+    "duration": 9.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/museum-dialogue-ltx.mp4",
+    "source_sha256": "52d8e916d6a42f4107ce2aba0a48ee332881f194afec8c0cb455b1c0c4e14965",
+    "sha256": "17658e77777555ea3b78dbabbde4bea49b46de4ec718184a39da699c3b26d8d8",
+    "bytes": 1530835,
+    "duration": 9.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/museum-dialogue-shotstream.mp4",
+    "source_sha256": "fce415fbbaa187ae3397bea4dbdbec5c104ed1c009383fa7f326a5b1e1016714",
+    "sha256": "e4f06e2feb51049e571d4d4ae49a124170380d2bf99d5ffc9c517b5a150cd85c",
+    "bytes": 3866369,
+    "duration": 9.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 832,
+        "height": 480
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/museum-dialogue-javis.mp4",
+    "source_sha256": "9b4a31997852dcf631d95b1eb1901fcff8a65a122bd85cb11442e3dcd17a7c14",
+    "sha256": "d44ecc50cea4000298dde03d2f2b0c093e8fc24bfe2883a4ea9143961dc57b27",
+    "bytes": 593622,
+    "duration": 9.029333,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 432,
+        "height": 240
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/armored-pandas-ssrs.mp4",
+    "source_sha256": "cc90b5d5d0a6427ac317701bd213808b9f50caa3897f7a4b0811e74b06522499",
+    "sha256": "b93c7b7728f516524f58815b11811bb2acaf20597adecb679e2d3c3dc8df5dd3",
+    "bytes": 3746649,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/armored-pandas-ltx.mp4",
+    "source_sha256": "433a349d1b33aaee6624b3f28f6a4e302a8002e5172078803a9eab3c3b54f758",
+    "sha256": "4ea15f249d5f5205b333ef9f27ae3224e69a8d30618be06353f38fea1af191d1",
+    "bytes": 1657249,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/armored-pandas-shotstream.mp4",
+    "source_sha256": "1f68f8f0c819fa75300d5590087baf23b77a0100f0f02edab553937bd4f1802d",
+    "sha256": "d3cfa8f784dde9bdc54e166820fe115d2f8e626164882a885b7fa85499e544ac",
+    "bytes": 4167481,
+    "duration": 8.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 832,
+        "height": 480
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/armored-pandas-javis.mp4",
+    "source_sha256": "84742a336ec5d2441480fdde74084fd5a45e9e7dcf747f97a89463c39971a480",
+    "sha256": "790146683c754240e331366b4815d57dd986ff9346271e166235109f1a91fca0",
+    "bytes": 614063,
+    "duration": 8.026667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 432,
+        "height": 240
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/toolbox-cart-ssrs.mp4",
+    "source_sha256": "1ba369b8036239e88c385d9a2c4fa34ce25e121ebe41b187ad59fbeebf893cf4",
+    "sha256": "e0a4daf669ad2a58662f4781309794f24a1fbd235f246093e6912bfb915e30ac",
+    "bytes": 3517167,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/toolbox-cart-ltx.mp4",
+    "source_sha256": "d563737d8e2f9b007f1a004c15da6dc02f8e320ada6ee1de542925bd241df7e0",
+    "sha256": "81c697bdc7c062c762761e517dea844e0d38564776b29747a5ef84db4fee92bb",
+    "bytes": 2331883,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/toolbox-cart-shotstream.mp4",
+    "source_sha256": "e633fde8a1e1f416abd77759abf13fa00271f217db69c5620c41fec3c920889c",
+    "sha256": "22637aae7a4057e286750b2972fa592bf02900cf8fd3a786755f1668b236fb66",
+    "bytes": 3712805,
+    "duration": 8.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 832,
+        "height": 480
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/toolbox-cart-javis.mp4",
+    "source_sha256": "f9b87b12fe8eeddc6c2ae7738f2dd86633b204c194210518eaa8fcd3984d6c26",
+    "sha256": "2eef3b1e291f35be18976d2671667bf84fd8c96b9d0afc34758eadf7307e4dfc",
+    "bytes": 779892,
+    "duration": 8.032,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 432,
+        "height": 240
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/blue-bell-dense.mp4",
+    "source_sha256": "49b9b5c5ab93db3fd87eb94d1544a19ca13949f2e8c4406fdb1982054a215296",
+    "sha256": "d2dccfba7e98ef7958b568b55da9a42e0d0136037c23318ada130b2ecb5fc5d1",
+    "bytes": 802306,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/blue-bell-ssrs.mp4",
+    "source_sha256": "5506d3ab70942915f3729408d5b423b7f7aa5829ac77638b87275fea561b106b",
+    "sha256": "db6ee833eb9126d45e7c744be5910d2a2ee379c2624ce0173b3fa2fd48e7a17b",
+    "bytes": 2288616,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/backpack-bench-dense.mp4",
+    "source_sha256": "54ac98abcc4d4761725946d1b9e574478e36e4a98d49fe74261e93b9ea2309bb",
+    "sha256": "45a709bd8c31839b463e78be7e7b7ab15e7d53af87ced07dbb8676ee3ef47605",
+    "bytes": 1218100,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/backpack-bench-ssrs.mp4",
+    "source_sha256": "1a7311cecd1526cc99a15ad208017077a0f0f4550899755b95ce24790ef815de",
+    "sha256": "5fb2c9496a76759a73fe6aebc131804539dff630b99b79f9cf68cbb5cf0cb4d6",
+    "bytes": 2284423,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/red-zipper-dense.mp4",
+    "source_sha256": "c759db47c62433d1381bc0cec75ec945923c90af44cb149be87e84e3fb01a7ff",
+    "sha256": "619fb1c81264029bac95533274841b269fc64872610d2d962bfc4d313d3741ec",
+    "bytes": 4553761,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/red-zipper-ssrs.mp4",
+    "source_sha256": "5bb3b96e1b5c13dccb5b7b6a92e5c618eab1f09b9ee9f26bfe035e681786c0cb",
+    "sha256": "18ee3df08069f4ff6769033e7b1a04e6e63ee15b0f7a9fd0e782547e7a9feaa2",
+    "bytes": 5131995,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/repairer-voice-dense.mp4",
+    "source_sha256": "4196720d3cfcd840ec97dc66c02f3e4a41dae7c6971c0c5a0104c43c251dbe9f",
+    "sha256": "93233ead12edd8ff155b2789db710419c7edb2fdda7e05ec1edf89405edfec9f",
+    "bytes": 1735888,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/repairer-voice-ssrs.mp4",
+    "source_sha256": "a83f9dfe934130eb58ace226f85392d5b82cf61e2610b9f5840348112e025f15",
+    "sha256": "cc465eda251910f49e96bf8f700d6caf2f587c4886f2b2c5e0382aaaff8b5f41",
+    "bytes": 2214043,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/guitar-cuts-dense.mp4",
+    "source_sha256": "b23b3922fcf1d03c3e617699df9930efad2ff62a030d99b770a2cd1371f768af",
+    "sha256": "543ca062eae4e1d7dc13b9db6a328272f6f5c2561c4fca00a17c0f90da5f2017",
+    "bytes": 3746292,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  },
+  {
+    "path": "videos/guitar-cuts-ssrs.mp4",
+    "source_sha256": "5104412105690431aa35ec12451eebea169ed92f21fa7cc421e7ebf9c0679c2e",
+    "sha256": "9516d2615f00e034f0f84483692b5c0a1b0adb50df9979c9547259ff53048a97",
+    "bytes": 2251364,
+    "duration": 8.041667,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 512
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ]
+  }
+]

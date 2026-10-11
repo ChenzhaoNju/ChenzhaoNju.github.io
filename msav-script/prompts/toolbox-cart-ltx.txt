@@ -1,0 +1,5 @@
+Generate an audiovisual clip lasting exactly 8 seconds with exactly 2 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic neutral-toned utility cart on a street. An elderly man demonstrates placing one already-sorted heavy toolbox on the bottom shelf and securing it. Brief Korean explanation with clear wheel, latch, and strap sounds.
+
+Shot 1 [0.0–4.0 seconds]: Side medium shot. He lowers one packed heavy toolbox onto the cart’s bottom shelf with both hands and says, “무거운 것은 아래에”. The wheels click softly as the box settles.
+
+Shot 2 [4.0–8.0 seconds]: Hard cut to a latch close-up. He tightens the strap already looped around the box and fastens it, then nudges the box to check that it does not wobble. The latch clicks distinctly; he nods with satisfaction.

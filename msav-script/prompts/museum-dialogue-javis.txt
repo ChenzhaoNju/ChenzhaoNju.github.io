@@ -1,0 +1,7 @@
+Generate an audiovisual clip lasting exactly 9 seconds with exactly 3 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic, cool-toned. Two young white adults walk side by side conversing inside a museum, clear English dialogue with precise lip-sync, crowd noise and echoing footsteps around them.
+
+Shot 1 [0.0–3.0 seconds]: Medium two-shot in a museum display aisle. The woman looks at the man and says, “So calm here.” They slow to a stop as background footsteps recede.
+
+Shot 2 [3.0–6.0 seconds]: Hard cut to the man’s close-up. He looks at her and smiles, asking, “Stay a little longer?” Soft sidelight crosses the glass and the crowd remains blurred.
+
+Shot 3 [6.0–9.0 seconds]: Hard cut to the woman’s close-up. She relaxes her shoulders and answers, “No rush.” She then turns to view the exhibit with him. No additional dialogue; let the ambience close the scene.

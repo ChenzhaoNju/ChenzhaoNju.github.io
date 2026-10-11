@@ -1,0 +1,276 @@
+{
+  "qualitative": [
+    {
+      "id": "pixel-fire",
+      "title": "A pixel-art cup lights a fire",
+      "sample": "few_119",
+      "shots": 4,
+      "description": "10-second audiovisual video, exactly 4 shots. Hard cuts only at listed boundaries. Keep identities and setting consistent. Colorful pixel-art coastal forest. A cup with arms and legs kneels beside prepared kindling. Audio: Sea wind, twig rustles and fire crackles.\nShot 1 [0-1.67s]: Wide. The cup examines the dry grass.\nShot 2 [1.67-5s]: Medium. It places two twigs on top. It raises a flint striker.\nShot 3 [5-8.33s]: Side medium. A spark lands in the grass. It blows gently as a flame appears.\nShot 4 [8.33-10s]: Wide. It warms its hands beside the small fire.",
+      "models": {
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/pixel-fire-ssrs.mp4",
+          "poster": "posters/pixel-fire-ssrs.webp",
+          "prompt": "prompts/pixel-fire-ssrs.txt"
+        },
+        "ltx": {
+          "label": "LTX-2.3",
+          "src": "videos/pixel-fire-ltx.mp4",
+          "poster": "posters/pixel-fire-ltx.webp",
+          "prompt": "prompts/pixel-fire-ltx.txt"
+        },
+        "shotstream": {
+          "label": "ShotStream",
+          "src": "videos/pixel-fire-shotstream.mp4",
+          "poster": "posters/pixel-fire-shotstream.webp",
+          "prompt": "prompts/pixel-fire-shotstream.txt"
+        },
+        "javis": {
+          "label": "JavisGPT",
+          "src": "videos/pixel-fire-javis.mp4",
+          "poster": "posters/pixel-fire-javis.webp",
+          "prompt": "prompts/pixel-fire-javis.txt"
+        }
+      }
+    },
+    {
+      "id": "balcony-mint",
+      "title": "Planting mint on a balcony",
+      "sample": "many_019",
+      "shots": 5,
+      "description": "10-second audiovisual video, exactly 5 shots. Hard cuts only at listed boundaries. Keep identities and setting consistent. Realistic warm balcony. A middle-aged woman plants mint seeds in a small pot. Audio: Birdsong, soil rustle and spray-bottle clicks.\nShot 1 [0-1.67s]: Wide. She places the soil-filled pot on a table.\nShot 2 [1.67-3.33s]: Medium. She presses a shallow groove.\nShot 3 [3.33-6.67s]: Close. She sprinkles seeds into it. She covers them with loose soil.\nShot 4 [6.67-8.33s]: Close. She mists the soil surface.\nShot 5 [8.33-10s]: Wide. She moves the pot into gentle window light.",
+      "models": {
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/balcony-mint-ssrs.mp4",
+          "poster": "posters/balcony-mint-ssrs.webp",
+          "prompt": "prompts/balcony-mint-ssrs.txt"
+        },
+        "ltx": {
+          "label": "LTX-2.3",
+          "src": "videos/balcony-mint-ltx.mp4",
+          "poster": "posters/balcony-mint-ltx.webp",
+          "prompt": "prompts/balcony-mint-ltx.txt"
+        },
+        "shotstream": {
+          "label": "ShotStream",
+          "src": "videos/balcony-mint-shotstream.mp4",
+          "poster": "posters/balcony-mint-shotstream.webp",
+          "prompt": "prompts/balcony-mint-shotstream.txt"
+        },
+        "javis": {
+          "label": "JavisGPT",
+          "src": "videos/balcony-mint-javis.mp4",
+          "poster": "posters/balcony-mint-javis.webp",
+          "prompt": "prompts/balcony-mint-javis.txt"
+        }
+      }
+    },
+    {
+      "id": "museum-dialogue",
+      "title": "Conversation in a museum aisle",
+      "sample": "few_075",
+      "shots": 3,
+      "description": "Generate an audiovisual clip lasting exactly 9 seconds with exactly 3 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic, cool-toned. Two young white adults walk side by side conversing inside a museum, clear English dialogue with precise lip-sync, crowd noise and echoing footsteps around them.\n\nShot 1 [0.0–3.0 seconds]: Medium two-shot in a museum display aisle. The woman looks at the man and says, “So calm here.” They slow to a stop as background footsteps recede.\n\nShot 2 [3.0–6.0 seconds]: Hard cut to the man’s close-up. He looks at her and smiles, asking, “Stay a little longer?” Soft sidelight crosses the glass and the crowd remains blurred.\n\nShot 3 [6.0–9.0 seconds]: Hard cut to the woman’s close-up. She relaxes her shoulders and answers, “No rush.” She then turns to view the exhibit with him. No additional dialogue; let the ambience close the scene.",
+      "models": {
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/museum-dialogue-ssrs.mp4",
+          "poster": "posters/museum-dialogue-ssrs.webp",
+          "prompt": "prompts/museum-dialogue-ssrs.txt"
+        },
+        "ltx": {
+          "label": "LTX-2.3",
+          "src": "videos/museum-dialogue-ltx.mp4",
+          "poster": "posters/museum-dialogue-ltx.webp",
+          "prompt": "prompts/museum-dialogue-ltx.txt"
+        },
+        "shotstream": {
+          "label": "ShotStream",
+          "src": "videos/museum-dialogue-shotstream.mp4",
+          "poster": "posters/museum-dialogue-shotstream.webp",
+          "prompt": "prompts/museum-dialogue-shotstream.txt"
+        },
+        "javis": {
+          "label": "JavisGPT",
+          "src": "videos/museum-dialogue-javis.mp4",
+          "poster": "posters/museum-dialogue-javis.webp",
+          "prompt": "prompts/museum-dialogue-javis.txt"
+        }
+      }
+    },
+    {
+      "id": "armored-pandas",
+      "title": "Armored pandas reach a flag",
+      "sample": "few_033",
+      "shots": 3,
+      "description": "Generate an audiovisual clip lasting exactly 8 seconds with exactly 3 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic warm copper steampunk gate plaza. Three armored pandas are already behind pipes near the flag platform. Show the final short flag capture, with a brief French command, valves, and flapping cloth.\n\nShot 1 [0.0–3.0 seconds]: Close shot at the pipe cover. The leader looks toward the flag a few steps away, points, and says softly, “En avant !” The other two pandas nod.\n\nShot 2 [3.0–6.0 seconds]: Hard cut to a side medium tracking shot. The pandas run the short distance from cover toward the flag. Metallic footsteps and valve hisses are distinct; nearby cloth flutters.\n\nShot 3 [6.0–8.0 seconds]: Hard cut to the flagpole close-up. The leader grasps it as the teammates stop behind, then calls, “Pour la cité !” The flag unfurls.",
+      "models": {
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/armored-pandas-ssrs.mp4",
+          "poster": "posters/armored-pandas-ssrs.webp",
+          "prompt": "prompts/armored-pandas-ssrs.txt"
+        },
+        "ltx": {
+          "label": "LTX-2.3",
+          "src": "videos/armored-pandas-ltx.mp4",
+          "poster": "posters/armored-pandas-ltx.webp",
+          "prompt": "prompts/armored-pandas-ltx.txt"
+        },
+        "shotstream": {
+          "label": "ShotStream",
+          "src": "videos/armored-pandas-shotstream.mp4",
+          "poster": "posters/armored-pandas-shotstream.webp",
+          "prompt": "prompts/armored-pandas-shotstream.txt"
+        },
+        "javis": {
+          "label": "JavisGPT",
+          "src": "videos/armored-pandas-javis.mp4",
+          "poster": "posters/armored-pandas-javis.webp",
+          "prompt": "prompts/armored-pandas-javis.txt"
+        }
+      }
+    },
+    {
+      "id": "toolbox-cart",
+      "title": "Securing a toolbox on a cart",
+      "sample": "few_042",
+      "shots": 2,
+      "description": "Generate an audiovisual clip lasting exactly 8 seconds with exactly 2 shots. Follow the shot timings below, using natural movement and speech cadence. Realistic neutral-toned utility cart on a street. An elderly man demonstrates placing one already-sorted heavy toolbox on the bottom shelf and securing it. Brief Korean explanation with clear wheel, latch, and strap sounds.\n\nShot 1 [0.0–4.0 seconds]: Side medium shot. He lowers one packed heavy toolbox onto the cart’s bottom shelf with both hands and says, “무거운 것은 아래에”. The wheels click softly as the box settles.\n\nShot 2 [4.0–8.0 seconds]: Hard cut to a latch close-up. He tightens the strap already looped around the box and fastens it, then nudges the box to check that it does not wobble. The latch clicks distinctly; he nods with satisfaction.",
+      "models": {
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/toolbox-cart-ssrs.mp4",
+          "poster": "posters/toolbox-cart-ssrs.webp",
+          "prompt": "prompts/toolbox-cart-ssrs.txt"
+        },
+        "ltx": {
+          "label": "LTX-2.3",
+          "src": "videos/toolbox-cart-ltx.mp4",
+          "poster": "posters/toolbox-cart-ltx.webp",
+          "prompt": "prompts/toolbox-cart-ltx.txt"
+        },
+        "shotstream": {
+          "label": "ShotStream",
+          "src": "videos/toolbox-cart-shotstream.mp4",
+          "poster": "posters/toolbox-cart-shotstream.webp",
+          "prompt": "prompts/toolbox-cart-shotstream.txt"
+        },
+        "javis": {
+          "label": "JavisGPT",
+          "src": "videos/toolbox-cart-javis.mp4",
+          "poster": "posters/toolbox-cart-javis.webp",
+          "prompt": "prompts/toolbox-cart-javis.txt"
+        }
+      }
+    }
+  ],
+  "controlled": [
+    {
+      "id": "blue-bell",
+      "title": "The right blue bell",
+      "category": "Sound-source binding",
+      "code": "NS",
+      "seed": 17,
+      "models": {
+        "dense": {
+          "label": "Dense SFT",
+          "src": "videos/blue-bell-dense.mp4",
+          "poster": "posters/blue-bell-dense.webp",
+          "prompt": "prompts/blue-bell-dense.txt"
+        },
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/blue-bell-ssrs.mp4",
+          "poster": "posters/blue-bell-ssrs.webp",
+          "prompt": "prompts/blue-bell-ssrs.txt"
+        }
+      }
+    },
+    {
+      "id": "backpack-bench",
+      "title": "The backpack on the bench",
+      "category": "Object persistence",
+      "code": "VS",
+      "seed": 17,
+      "models": {
+        "dense": {
+          "label": "Dense SFT",
+          "src": "videos/backpack-bench-dense.mp4",
+          "poster": "posters/backpack-bench-dense.webp",
+          "prompt": "prompts/backpack-bench-dense.txt"
+        },
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/backpack-bench-ssrs.mp4",
+          "poster": "posters/backpack-bench-ssrs.webp",
+          "prompt": "prompts/backpack-bench-ssrs.txt"
+        }
+      }
+    },
+    {
+      "id": "red-zipper",
+      "title": "The red bag zipper",
+      "category": "Sound-source binding",
+      "code": "NS",
+      "seed": 29,
+      "models": {
+        "dense": {
+          "label": "Dense SFT",
+          "src": "videos/red-zipper-dense.mp4",
+          "poster": "posters/red-zipper-dense.webp",
+          "prompt": "prompts/red-zipper-dense.txt"
+        },
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/red-zipper-ssrs.mp4",
+          "poster": "posters/red-zipper-ssrs.webp",
+          "prompt": "prompts/red-zipper-ssrs.txt"
+        }
+      }
+    },
+    {
+      "id": "repairer-voice",
+      "title": "Repairer B in blue",
+      "category": "Speaker binding",
+      "code": "SB",
+      "seed": 17,
+      "models": {
+        "dense": {
+          "label": "Dense SFT",
+          "src": "videos/repairer-voice-dense.mp4",
+          "poster": "posters/repairer-voice-dense.webp",
+          "prompt": "prompts/repairer-voice-dense.txt"
+        },
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/repairer-voice-ssrs.mp4",
+          "poster": "posters/repairer-voice-ssrs.webp",
+          "prompt": "prompts/repairer-voice-ssrs.txt"
+        }
+      }
+    },
+    {
+      "id": "guitar-cuts",
+      "title": "Guitar across cuts",
+      "category": "Audio continuity",
+      "code": "AC",
+      "seed": 29,
+      "models": {
+        "dense": {
+          "label": "Dense SFT",
+          "src": "videos/guitar-cuts-dense.mp4",
+          "poster": "posters/guitar-cuts-dense.webp",
+          "prompt": "prompts/guitar-cuts-dense.txt"
+        },
+        "ssrs": {
+          "label": "SSRS SFT (ours)",
+          "src": "videos/guitar-cuts-ssrs.mp4",
+          "poster": "posters/guitar-cuts-ssrs.webp",
+          "prompt": "prompts/guitar-cuts-ssrs.txt"
+        }
+      }
+    }
+  ]
+}

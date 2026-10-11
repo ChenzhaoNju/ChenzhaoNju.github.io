@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Structured Stateful Relational Scripts (SSRS) and MSAV-Script-100K: persistent identities, evolving states, and connected sounds for multi-shot audio-visual video generation.">
+  <meta name="theme-color" content="#f8f7f4">
+  <meta property="og:title" content="SSRS · MSAV-Script-100K">
+  <meta property="og:description" content="One story, across every cut. Structured supervision and 100K native multi-shot audio-visual clips.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chenzhaonju.github.io/msav-script/">
+  <meta property="og:image" content="https://chenzhaonju.github.io/msav-script/assets/social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://chenzhaonju.github.io/msav-script/">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+  <title>SSRS · MSAV-Script-100K | Multi-Shot Audio-Visual Generation</title>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <a class="brand" href="#top" aria-label="SSRS home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>SSRS<span class="brand-divider">/</span><span class="brand-sub">MSAV-Script-100K</span></a>
+  <nav aria-label="Project navigation"><a href="#examples">Examples</a><a href="#representation">SSRS</a><a href="#dataset">Dataset</a><a href="#results">Results</a><a class="nav-paper" href="assets/paper.pdf" target="_blank" rel="noopener">Paper ↗</a></nav>
+</header>
+<main id="main">
+<section class="hero section-shell" id="top" aria-labelledby="paper-title">
+  <div class="eyebrow"><span class="status-dot"></span> MULTI-SHOT AUDIO-VISUAL GENERATION</div>
+  <h1 id="paper-title">Structured Stateful<br><span>Relational Scripts</span><small>with a High-Quality Dataset for<br class="desktop-break"> Multi-Shot Audio-Visual Video Generation</small></h1>
+  <p class="hero-line">One story. Persistent identities. Connected sounds.<br>Across every cut.</p>
+  <div class="authors">
+    <a href="https://chenzhaonju.github.io/">Chen Zhao<sup>1,2,*</sup></a><span>Lehan Shen<sup>1,*</sup></span><span>Qilong Huang<sup>2</sup></span><span>Hongyu Li<sup>2</sup></span><span>Zhuoliang Kang<sup>2</sup></span><span>Xiaoming Wei<sup>2</sup></span><span>Jian Yang<sup>1</sup></span><a href="https://tyshiwo.github.io/">Ying Tai<sup>1,†</sup></a>
+  </div>
+  <p class="affiliations"><sup>1</sup> State Key Laboratory for Novel Software Technology, Nanjing University <span>·</span> <sup>2</sup> Meituan</p>
+  <p class="author-note">* Equal contribution &nbsp; † Corresponding author<br>This work was done during Chen Zhao’s internship at Meituan.</p>
+  <div class="resource-links"><a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>Read the paper<span>↗</span></a><a class="button secondary" href="https://huggingface.co/datasets/shenlehan/MSAV-Script-100K" target="_blank" rel="noopener"><span aria-hidden="true">🤗</span>Explore the dataset<span>↗</span></a><a class="button text-button" href="#examples">Watch the results<span>↓</span></a></div>
+</section>
+
+<section class="showreel section-shell" aria-label="Featured generated videos">
+  <div class="showreel-caption"><span class="mini-label">GENERATED WITH SSRS SFT</span><span>Picture meets sound. Shot meets story.</span></div>
+  <div class="film-strip">
+    <article class="feature-film"><video class="preview-video" data-src="videos/pixel-fire-ssrs.mp4" poster="posters/pixel-fire-ssrs.webp" muted loop playsinline preload="none" aria-label="SSRS generation: a pixel-art cup lights a fire"></video><div class="film-overlay"><span>01 / Animated worlds</span><button class="watch-feature" data-case="pixel-fire" aria-label="Explore the pixel-art fire example">Watch with sound ↗</button></div></article>
+    <article class="feature-film"><video class="preview-video" data-src="videos/balcony-mint-ssrs.mp4" poster="posters/balcony-mint-ssrs.webp" muted loop playsinline preload="none" aria-label="SSRS generation: planting mint on a balcony"></video><div class="film-overlay"><span>02 / Everyday stories</span><button class="watch-feature" data-case="balcony-mint" aria-label="Explore the balcony gardening example">Watch with sound ↗</button></div></article>
+    <article class="feature-film"><video class="preview-video" data-src="videos/museum-dialogue-ssrs.mp4" poster="posters/museum-dialogue-ssrs.webp" muted loop playsinline preload="none" aria-label="SSRS generation: a conversation in a museum"></video><div class="film-overlay"><span>03 / Shared conversations</span><button class="watch-feature" data-case="museum-dialogue" aria-label="Explore the museum dialogue example">Watch with sound ↗</button></div></article>
+  </div>
+  <div class="sound-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3zM16 8c3 2 3 6 0 8M19 5c5 4 5 10 0 14"/></svg>These examples have native audio. Enable sound in the players to hear cross-shot continuity.</div>
+</section>
+
+<section class="intro section-shell" aria-labelledby="intro-title">
+  <div class="section-intro"><p class="eyebrow">THE IDEA</p><h2 id="intro-title">A shot boundary is not<br>an event boundary.</h2></div>
+  <div class="intro-copy"><p>A person can leave the frame while their voice continues. An object can stay the same while its state changes. A sound can span several camera cuts.</p><p>Dense captions often leave these connections implicit. <strong>SSRS makes them explicit</strong> by separating persistent visual and voice identities from shot-specific states, binding sounds to their sources, and connecting events across the entire clip.</p><details class="abstract"><summary>Read the abstract <span>+</span></summary><p>Coherent multi-shot audio-visual video generation requires maintaining consistent identities while depicting evolving states and coordinating sounds across shot boundaries. Although dense captions describe individual shots in detail, they rarely specify which entities persist, how their states change, or which entities and actions produce sounds. To address this limitation, we propose Structured Stateful Relational Scripts (SSRS), a textual supervision representation that separates persistent entity and voice identities from shot-specific visual and auditory states. SSRS explicitly encodes sound-source bindings and temporal relations, while a global audio-visual event sequence connects local actions and sounds, including events that continue across shot boundaries. We further introduce MSAV-Script-100K, a large-scale dataset of curated multi-shot audio-visual videos paired with detailed SSRS annotations, enabling models to learn identity persistence, state transitions, and event continuity from structured supervision. Experiments demonstrate improvements in cross-shot consistency, adherence to specified state changes, and audio-visual alignment, highlighting the effectiveness of our SSRS and MSAV-Script-100K for coherent multi-shot audio-visual generation.</p></details></div>
+</section>
+
+<section class="examples dark-section" id="examples" aria-labelledby="examples-title">
+  <div class="section-shell"><div class="section-top"><div><p class="eyebrow">SEE & HEAR THE DIFFERENCE</p><h2 id="examples-title">Multi-shot stories,<br>side by side.</h2></div><p>Five selected cases. Four models.<br>Explore the picture—and the sound.</p></div>
+  <div id="case-tabs" class="case-tabs" role="tablist" aria-label="Choose a generation example"></div>
+  <div id="qualitative-panel" role="tabpanel" tabindex="0"><div class="viewer-heading"><div><h3 id="case-title">Loading examples…</h3><p id="case-meta"></p></div><div class="viewer-actions"><button id="play-comparison" class="button small light">▶ Start together</button><button id="pause-comparison" class="button small ghost">Pause all</button></div></div><div id="comparison-videos" class="comparison-grid"></div><details class="prompt-box"><summary>View the shared evaluation prompt <span>+</span></summary><p id="case-description"></p></details></div>
+  <p class="selection-note">Selected qualitative examples from the supplied supplementary materials. These are illustrative cases, not a random sample or a substitute for the full benchmark. Model-specific generation prompts are available beneath each video.</p>
+  <p id="player-status" class="player-status" role="status" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="section-shell controlled" id="controlled" aria-labelledby="controlled-title">
+  <div class="section-top"><div><p class="eyebrow">SAME CASE · SAME SEED</p><h2 id="controlled-title">Structure changes<br>what the model follows.</h2></div><p>Dense SFT versus SSRS SFT.<br>Inspect source binding, persistence, and continuity.</p></div>
+  <div id="control-tabs" class="case-tabs light-tabs" role="tablist" aria-label="Choose a controlled comparison"></div>
+  <div id="controlled-panel" role="tabpanel" tabindex="0"><div class="viewer-heading"><div><span id="control-category" class="category-label"></span><h3 id="control-title">Loading comparisons…</h3><p id="control-meta"></p></div><button id="play-controlled" class="button small secondary">▶ Start together</button></div><div id="controlled-videos" class="controlled-grid"></div></div>
+  <p class="selection-note">Each pair uses the same case and seed with different caption formats. Sound-related behavior should be inspected with audio enabled. These selected examples do not estimate full-set performance.</p>
+</section>
+
+<section class="representation section-shell" id="representation" aria-labelledby="representation-title">
+  <div class="section-top"><div><p class="eyebrow">THE REPRESENTATION</p><h2 id="representation-title">What persists.<br>What changes. What connects.</h2></div><p>A script with explicit identities,<br>local states, and global event links.</p></div>
+  <div class="script-demo"><div class="script-sidebar"><span class="mini-label">ILLUSTRATIVE THREE-SHOT SCRIPT</span><h3>One voice.<br>Three views.</h3><p>The same utterance belongs to Person A, even when the camera cuts to Person B.</p><div class="registry-item"><span class="entity-dot person-a">A</span><div><strong>Person A</strong><small>Speaker · Voice vA</small></div></div><div class="registry-item"><span class="entity-dot person-b">B</span><div><strong>Person B</strong><small>Listener</small></div></div><div class="utterance">U1 <span>“It’s on the table.”</span></div></div><div class="script-stage"><div class="shot-selector" role="tablist" aria-label="Illustrative shot"><button role="tab" aria-selected="true" aria-controls="shot-demo-panel" id="shot-tab-0" data-shot="0">01 <span>Speaker</span></button><button role="tab" aria-selected="false" aria-controls="shot-demo-panel" id="shot-tab-1" tabindex="-1" data-shot="1">02 <span>Listener</span></button><button role="tab" aria-selected="false" aria-controls="shot-demo-panel" id="shot-tab-2" tabindex="-1" data-shot="2">03 <span>Speaker</span></button></div><div class="shot-demo-panel" id="shot-demo-panel" role="tabpanel" aria-labelledby="shot-tab-0"><div id="shot-visual" class="shot-visual"><div class="camera-corner tl"></div><div class="camera-corner tr"></div><div class="camera-corner bl"></div><div class="camera-corner br"></div><span class="frame-label">SPEAKER VIEW</span><div class="person-icon person-a"><span>A</span></div><span class="frame-state" id="frame-state">Person A is visible and speaking</span></div><div class="state-rows"><div><span>VISUAL STATE</span><p id="visual-state">A is in frame; B is off screen.</p></div><div><span>AUDIO EVENT</span><p id="audio-state">U1 begins · Voice vA</p></div><div><span>SOURCE BINDING</span><p>U1 → Person A</p></div></div></div><div class="continuity-track"><span class="track-label">ONE CONTINUOUS UTTERANCE</span><div class="waveform" aria-hidden="true"></div><div class="track-shots"><span>Shot 1</span><span>Shot 2</span><span>Shot 3</span></div></div></div></div>
+  <p class="figure-caption">Conceptual example adapted from Figure 4 of the paper. This is a representation illustration, not a generated result.</p>
+  <div class="representation-details"><div><span class="step-number">01</span><h3>Global context & registries</h3><p>Define the scene, recurring visual entities, reusable voice identities, and audio events once.</p></div><div><span class="step-number">02</span><h3>Shot-level states & relations</h3><p>Describe cinematic presentation, visual and auditory evolution, and source-supported audio-visual relations.</p></div><div><span class="step-number">03</span><h3>Cross-shot event sequence</h3><p>Connect actions and sounds across shots, preserving continuity without assuming unsupported causality.</p></div></div>
+  <details class="paper-figure"><summary>View the complete SSRS overview from the paper <span>↗</span></summary><a href="assets/ssrs-overview.webp" target="_blank" rel="noopener"><img src="assets/ssrs-overview.webp" alt="Figure 4: global context and shared registries, shot-level states and relations, and a global audio-visual event sequence" loading="lazy" width="1000" height="760"></a></details>
+</section>
+
+<section class="dataset-section" id="dataset" aria-labelledby="dataset-title"><div class="section-shell"><div class="section-top"><div><p class="eyebrow">THE DATASET</p><h2 id="dataset-title">MSAV-Script-100K</h2><p class="dataset-subtitle">Compact clips. Rich supervision.<br>Original, synchronized audio.</p></div><a class="button primary" href="https://huggingface.co/datasets/shenlehan/MSAV-Script-100K" target="_blank" rel="noopener">Explore on Hugging Face ↗</a></div>
+  <div class="dataset-stats"><div><strong>100K</strong><span>curated multi-shot clips</span></div><div><strong>237.4<span>h</span></strong><span>of audio-visual content</span></div><div><strong>5.35</strong><span>shots per clip, on average</span></div><div><strong>6–12<span>s</span></strong><span>approximate clip duration</span></div></div>
+  <div class="dataset-body"><div><h3>Curated for both eyes and ears.</h3><p>Consecutive shots retain their original order and continuous source audio. Multi-stage curation combines perceptual and semantic screening with assessment of visual quality, audio quality, and audio-visual synchronization.</p><p>Each clip is paired with dense audio-visual descriptions and SSRS annotations, making persistent identities, evolving states, and cross-shot events available as explicit supervision.</p><div class="source-tags"><span>Food</span><span>Music videos</span><span>Animation</span><span>Documentary</span><span>Sports</span><span>Esports</span></div><p class="small-note">Six categories in the YouTube collection, complemented by existing open datasets.</p></div><div class="audio-composition"><span class="mini-label">AUDIO COMPOSITION</span><div><span>Speech</span><strong>54.8%</strong><i style="--bar-width:54.8%"></i></div><div><span>Music</span><strong>49.7%</strong><i style="--bar-width:49.7%"></i></div><div><span>Speech + music</span><strong>25.7%</strong><i style="--bar-width:25.7%"></i></div><p>Audio tags overlap: a clip may contain both speech and music.</p></div></div>
+  <figure class="dataset-pipeline"><a href="assets/dataset-construction.webp" target="_blank" rel="noopener"><img src="assets/dataset-construction.webp" alt="Figure 1: data collection and multi-shot segmentation, perceptual and semantic screening, and visual, audio, and synchronization quality assessment" width="1000" height="400" loading="lazy"></a><figcaption>Dataset construction pipeline · Figure 1 of the paper</figcaption></figure>
+</div></section>
+
+<section class="section-shell results" id="results" aria-labelledby="results-title"><div class="section-top"><div><p class="eyebrow">THE EVIDENCE</p><h2 id="results-title">Better adherence<br>to the intended story.</h2></div><p>Matched training on LTX-2.3.<br>Shared clips, descriptions, and optimization settings.</p></div>
+  <div class="result-highlights"><div><strong>11<span>/14</span></strong><p>MSAVBench metrics improve<br>over Dense SFT</p></div><div><strong>+41.25<span>pp</span></strong><p>Overall target satisfaction<br>in the controlled diagnostic set</p></div><div><strong>9<span>/14</span></strong><p>Best scores in the paper’s<br>reported benchmark comparison</p></div></div>
+  <div class="results-heading"><h3>State and relational following</h3><p>40 matched prompt instances · target satisfaction (%) · higher is better</p></div>
+  <div id="target-chart" class="target-chart" aria-label="Target satisfaction: Dense SFT versus SSRS SFT"></div><div class="chart-key"><span><i class="dense-key"></i>Dense SFT</span><span><i class="ssrs-key"></i>SSRS SFT</span></div>
+  <p class="results-caveat">Overall preservation is 49.38% for Dense SFT and 52.50% for SSRS SFT. Improvements are not uniform: visual-state preservation decreases, and SSRS remains below Dense SFT on visual consistency, intra-shot layout alignment, and perceptual audio quality.</p>
+  <details class="results-table"><summary>View all 14 MSAVBench metrics <span>+</span></summary><p>150-prompt short-video T2AV subset. All scores are normalized to [0, 1]; higher is better. Values are reproduced from Table 1.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable MSAVBench results table"><table id="benchmark-table"></table></div></details>
+  <details class="results-table"><summary>View controlled evaluation and representation ablations <span>+</span></summary><div class="table-scroll" tabindex="0" role="region" aria-label="Controlled evaluation results"><table id="controlled-table"></table></div><p>Target satisfaction (T) and preservation (P) are percentages, reproduced from Table 2.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Representation ablation results"><table id="ablation-table"></table></div><p>Ablation scores are normalized to [0, 1], reproduced from Table 3.</p></details>
+</section>
+
+<section class="section-shell citation-section" id="citation" aria-labelledby="citation-title"><div><p class="eyebrow">BUILD ON THIS WORK</p><h2 id="citation-title">Citation & resources</h2><p>Read the paper, explore the dataset,<br>or share this project.</p><div class="citation-links"><a href="assets/paper.pdf" target="_blank" rel="noopener">Paper PDF ↗</a><a href="https://huggingface.co/datasets/shenlehan/MSAV-Script-100K" target="_blank" rel="noopener">Dataset ↗</a><a href="https://github.com/ChenzhaoNju/ChenzhaoNju.github.io/tree/main/msav-script" target="_blank" rel="noopener">Website source ↗</a></div></div><div class="bibtex-box"><div><span>BIBTEX</span><button id="copy-citation">Copy citation</button></div><pre id="bibtex">@misc{zhao_ssrs,
+  title = {Structured Stateful Relational Scripts with
+    a High-Quality Dataset for Multi-Shot
+    Audio-Visual Video Generation},
+  author = {Zhao, Chen and Shen, Lehan and Huang, Qilong
+    and Li, Hongyu and Kang, Zhuoliang and Wei, Xiaoming
+    and Yang, Jian and Tai, Ying},
+  url = {https://chenzhaonju.github.io/msav-script/}
+}</pre><p id="copy-status" role="status" aria-live="polite"></p></div></section>
+</main>
+<footer class="footer section-shell"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>SSRS</a><p>Nanjing University · Meituan</p><a href="https://chenzhaonju.github.io/">Chen Zhao’s homepage ↗</a></footer>
+<noscript><p class="noscript-note">Enable JavaScript to switch video comparisons and explore the interactive script. The paper and dataset links remain available.</p></noscript>
+</body>
+</html>

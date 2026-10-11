@@ -5,3 +5,5 @@ Academic homepage of Chen Zhao, Ph.D. student at Nanjing University.
 Website: https://chenzhaonju.github.io/
 
 The homepage and academic CV are static pages. Six publication illustrations are labeled as AI-generated concepts.
+
+SSRS / MSAV-Script-100K project page: https://chenzhaonju.github.io/msav-script/

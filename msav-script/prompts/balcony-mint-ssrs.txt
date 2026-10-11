@@ -1,0 +1,89 @@
+【Global Visual】
+【Scene and Space】Realistic warm balcony with a table and window light.
+【Visual Style】Realistic.
+【Global Lighting and Color】Warm lighting, gentle window light.
+【Visual Atmosphere】Calm gardening activity.
+
+【Global Audio】
+【overall_soundscape】Birdsong, soil rustle, and spray-bottle clicks.
+【non_diegetic_music】N/A
+【global_auditory_atmosphere】Natural outdoor ambience with gardening sounds.
+
+【Visual Entity Registry】
+[Subject A] A middle-aged woman.
+[Object A] A small pot filled with soil.
+[Object B] Mint seeds.
+[Object C] A spray bottle.
+
+【Audio Identity Registry】
+[Voiceprint A] Unidentified natural bird sounds.
+
+【Audio Entity Registry】
+[SFX 1] Birdsong.
+[SFX 2] Soil rustle.
+[SFX 3] Spray-bottle clicks.
+
+【Shot Sequence】
+【Shot 1｜0-1.67s】
+【Transition】Hard cut
+【Shot Size】Wide
+【View Angle】Wide
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic warm balcony.
+【Frame Details】A table is visible.
+【In-shot Visual Entity States and Changes】[Subject A], [Object A]: She places the soil-filled pot on a table.
+【In-shot Audio Event States and Changes】[SFX 1], [SFX 2]: Birdsong and soil rustle are present.
+【Intra-shot Audiovisual Event Relations】
+【Source】(placing the pot) The woman [Subject A] handling the pot produces soil rustle [SFX 2].
+
+【Shot 2｜1.67-3.33s】
+【Transition】Hard cut
+【Shot Size】Medium
+【View Angle】Medium
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic warm balcony.
+【Frame Details】The pot is visible.
+【In-shot Visual Entity States and Changes】[Subject A]: She presses a shallow groove.
+【In-shot Audio Event States and Changes】[SFX 1], [SFX 2]: Birdsong and soil rustle continue.
+【Intra-shot Audiovisual Event Relations】
+【Source】(pressing a groove) The woman [Subject A] pressing the soil produces soil rustle [SFX 2].
+
+【Shot 3｜3.33-6.67s】
+【Transition】Hard cut
+【Shot Size】Close
+【View Angle】Close
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic warm balcony.
+【Frame Details】The pot and seeds are visible.
+【In-shot Visual Entity States and Changes】[Subject A], [Object B]: She sprinkles seeds into the groove and covers them with loose soil.
+【In-shot Audio Event States and Changes】[SFX 1], [SFX 2]: Birdsong and soil rustle continue.
+【Intra-shot Audiovisual Event Relations】
+【Source】The woman [Subject A] sprinkling and covering seeds produces soil rustle [SFX 2].
+
+【Shot 4｜6.67-8.33s】
+【Transition】Hard cut
+【Shot Size】Close
+【View Angle】Close
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic warm balcony.
+【Frame Details】The soil surface is visible.
+【In-shot Visual Entity States and Changes】[Subject A], [Object C]: She mists the soil surface.
+【In-shot Audio Event States and Changes】[SFX 1], [SFX 3]: Birdsong and spray-bottle clicks are present.
+【Intra-shot Audiovisual Event Relations】
+【Source】(misting the soil) The woman [Subject A] using the spray bottle produces spray-bottle clicks [SFX 3].
+
+【Shot 5｜8.33-10s】
+【Transition】Hard cut
+【Shot Size】Wide
+【View Angle】Wide
+【Camera Movement】Static
+【Local Lighting and Visual Style】Realistic warm balcony with gentle window light.
+【Frame Details】The pot is moved into window light.
+【In-shot Visual Entity States and Changes】[Subject A], [Object A]: She moves the pot into gentle window light.
+【In-shot Audio Event States and Changes】[SFX 1]: Birdsong continues.
+【Intra-shot Audiovisual Event Relations】
+not specified
+
+【Global Audiovisual Event Sequence】
+【Main Event Flow】E1: [Shot 1] The woman [Subject A] places the soil-filled pot [Object A] on a table. → E2: [Shot 2] The woman [Subject A] presses a shallow groove in the soil. → E3: [Shot 3] The woman [Subject A] sprinkles mint seeds [Object B] and covers them with loose soil. → E4: [Shot 4] The woman [Subject A] mists the soil surface with a spray bottle [Object C]. → E5: [Shot 5] The woman [Subject A] moves the pot [Object A] into gentle window light.
+【Cross-shot】E1, E2, E3, E4, E5, [Shot 2], [Shot 3], [Shot 4]: The woman [Subject A] performs a continuous sequence of planting actions across shots [Shot 1]–[Shot 5] with continuous birdsong [SFX 1] and intermittent soil [SFX 2] and spray [SFX 3] sounds.

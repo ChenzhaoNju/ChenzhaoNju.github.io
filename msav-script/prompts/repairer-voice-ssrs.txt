@@ -1,0 +1,46 @@
+【Global Visual】
+【Scene and Space】a repair shop bench.
+【Visual Style】Natural cinematic realism in one coherent eight-second video, exactly three shots with unmistakable hard cuts near 2.5 and 5.5 seconds; no dissolves, montage inserts, subtitles, captions, logos, or visible text.
+【Global Lighting and Color】Natural, stable lighting and consistent named colors across all cuts.
+【Visual Atmosphere】Clear observational staging with medium or medium-wide framing wherever posture, hands, paired objects, or speakers must be judged.
+
+【Global Audio】
+【overall_soundscape】Native stereo audio synchronized with pictured events and ordinary low-level ambience, except during any explicitly required silence interval. No explanatory narration.
+【non_diegetic_music】No music unless explicitly required by the specified behavior.
+【global_auditory_atmosphere】Clean, intelligible, spatially coherent sound without post-hoc dubbing.
+
+【Visual Entity Registry】
+[Entity Group] repairer A in brown coveralls and repairer B in blue coveralls. All visible identities persist across shots; named colors, objects, and spatial layout remain stable. No duplicate principal objects or substitute people. both repairers, coveralls, and red vise remain unchanged.
+
+【Audio Identity Registry】
+[Voice Identities] Distinct persistent voice identities only when the specified behavior includes speakers; otherwise N/A.
+
+【Audio Entity Registry】
+[Required Audio Events] Only the sounds, speech, ambience, silence, or music explicitly stated in the specified behavior. A voice identity and an individual utterance are separate events.
+
+【Shot Sequence】
+【Shot 1｜0.0-2.5s】
+【Transition】opens with
+【P】Establish the full scene, all principal entities needed by the task, their stable appearance, and the initial state. Use a stable medium or medium-wide view.
+【V】Show the initial observation opportunity required by the behavior below.
+【A】Establish the relevant native ambience, voices, or sound event; add no unrequested dialogue or music.
+【C】Keep visible actions and their sounds synchronized; establish any requested voice-to-person anchors on screen.
+
+【Shot 2｜2.5-5.5s】
+【Transition】hard cut
+【P】Show the central intervention clearly, keeping relevant people, hands, props, or paired sources visible.
+【V】Execute or maintain the specified condition; hold the observable result for at least 0.8 seconds.
+【A】Execute the corresponding specified audio behavior, including any explicit pause window.
+【C】Bind each requested sound or utterance to the specified visible or off-screen source without changing unrelated facts.
+
+【Shot 3｜5.5-8.0s】
+【Transition】hard cut
+【P】Reveal the final state in the same coherent scene, with all entities required for verification visible.
+【V】Maintain the requested final visual state or common completed state for at least 0.8 seconds.
+【A】Complete or continue the requested audio behavior; add no unrequested dialogue or music.
+【C】Preserve identity, source binding, and cross-shot continuity exactly as specified.
+
+【Global Audiovisual Event Sequence】
+H1: Establish the scene, stable entities, initial states, and any required voice or sound anchors during 0.0–2.5s.
+H2: Shot 1 establishes voices: A says “Check this” and B says “Looks stable.” Shot 2 frames B doing a simple visible adjustment and saying “The loose screw is underneath,” while A is silent. Shot 3 returns to both.
+H3: Preserve all unrelated facts, show or sound the requested result long enough to judge, and end at 8.0s.

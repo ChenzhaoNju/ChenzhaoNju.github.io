@@ -1,0 +1,55 @@
+【Global Visual】
+【Scene and Space】Realistic neutral-toned utility cart on a street.
+【Visual Style】Natural movement and speech cadence.
+【Global Lighting and Color】Neutral-toned.
+【Visual Atmosphere】Realistic.
+
+【Global Audio】
+【overall_soundscape】Clear wheel, latch, and strap sounds.
+【non_diegetic_music】N/A
+【global_auditory_atmosphere】Clear wheel, latch, and strap sounds.
+
+【Visual Entity Registry】
+[Subject A] An elderly man.
+[Object A] One already-sorted heavy toolbox.
+[Object B] A utility cart.
+[Object C] A latch.
+[Object D] A strap.
+
+【Audio Identity Registry】
+[Voiceprint A] Elderly male, Korean language.
+
+【Audio Entity Registry】
+[Voice 1] spoken speech | uses [Voiceprint A] | transcript: “무거운 것은 아래에” | Korean explanation regarding placing heavy items.
+[SFX 1] Soft clicking of wheels as the box settles.
+[SFX 2] Distinct clicking of the latch.
+
+【Shot Sequence】
+【Shot 1｜0.0–4.0 seconds】
+【Transition】N/A
+【Shot Size】medium shot
+【View Angle】side
+【Camera Movement】N/A
+【Local Lighting and Visual Style】Natural movement and speech cadence.
+【Frame Details】Side medium shot of an elderly man lowering a packed heavy toolbox onto the cart's bottom shelf with both hands.
+【In-shot Visual Entity States and Changes】[Subject A], [Object A], [Object B]: He lowers one packed heavy toolbox onto the cart's bottom shelf with both hands.
+【In-shot Audio Event States and Changes】[Voice 1], [SFX 1]: Speech occurs; wheels click softly as the box settles.
+【Intra-shot Audiovisual Event Relations】
+【Source】(says) The elderly man [Subject A] speaks [Voice 1].
+【Source】The cart [Object B] produces wheel clicks [SFX 1] as the box settles.
+
+【Shot 2｜4.0–8.0 seconds】
+【Transition】Hard cut
+【Shot Size】close-up
+【View Angle】N/A
+【Camera Movement】N/A
+【Local Lighting and Visual Style】Natural movement and speech cadence.
+【Frame Details】Close-up of a latch.
+【In-shot Visual Entity States and Changes】[Subject A], [Object D], [Object A], [Object C]: He tightens the strap already looped around the box and fastens it, then nudges the box to check that it does not wobble. He nods with satisfaction.
+【In-shot Audio Event States and Changes】[SFX 2]: The latch clicks distinctly.
+【Intra-shot Audiovisual Event Relations】
+【Source】(fastens) The latch [Object C] clicks distinctly [SFX 2] as it is fastened.
+
+【Global Audiovisual Event Sequence】
+【Main Event Flow】E1: [Shot 1] An elderly man [Subject A] places a heavy toolbox [Object A] on a cart [Object B] and speaks [Voice 1]. → E2: [Shot 2] The man [Subject A] secures the strap and latch [Object C] on the box, checks for wobble, and nods [SFX 2].
+【Cross-shot】[Shot 1], [Shot 2], [Subject A], [Object A]: The action of securing the box continues from placing E1 to fastening E2.
